@@ -1,14 +1,79 @@
+* {
+    font-family: 'Handlee', cursive;
+
+}
+
+body {
+    background-color: #F5EBE0;
+}
+
+.textblock__description {
+    font-size: 24px;
+}
+
+h1 {
+    color: #9cbe7d;
+    font-size: 4rem;
+    font-family: 'Coming Soon', cursive;
+    margin: 20px 0 -15px 0;
+    /* border: 1px solid red; */
+}
+
+#gridSlider {
+    width: 33%;
+    background: #F5EBE0;
+    accent-color: #9cbe7d;
+}
+
+#gridSlider::-webkit-slider-thumb {
+-webkit-appearance: none; 
+  appearance: none;
+  background: #04AA6D; 
+}
+
+#gridSlider::-moz-range-thumb {
+    background: #04AA6D; 
+}
+
+.grid__alteration > * {
+    margin: 10px;
+    /* border: 1px solid red; */
+}
+
+button.changeGridSize {
+    padding: 10px 25px;
+    font-size: large;
+    background-color: #9cbe7d;  
+    border: 0;
+}
+
+.changeGridSize:hover {
+    background-color: rgb(175, 207, 145);
+    /* font-size: larger; */
+}
+
 .main {
-    max-width: 90ch;
-    margin: auto;
+    max-width: 50%;
+    margin: 10px auto 0 auto;
     text-align: center;
+    color: #333533;
+    padding: 0 50px;
+    border-radius: 15px;
+    background-color: #f4f0eb;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+        
+    
 }
 
 .grid__container {
     display: grid;
     margin: auto;
-    width: 700px;
-    height: 600px;
+    width: 90%;
+    height: 700px;
     border: 1px solid black;
 }
 
@@ -38,7 +103,7 @@
 
 .grid__settings {
     /* border: 1px solid black; */
-    padding: 10px 10px;
+    padding: 0 0 5px 45px;
 }
 /* .highlight {
     background-color: black;
@@ -52,7 +117,7 @@
 
 .grid__child {
     width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.146);
+    /* border: 1px solid rgba(0, 0, 0, 0.146); */
     /* background-color: aliceblue; */
 }
 

@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap'); </style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap'); </style>
     <title>Etch-A-Sketch</title>
 </head>
 <body>
@@ -13,15 +16,12 @@
     <section class="main">
         <div class="textblock">
             <h1 class="textblock__header">Etch-A-Sketch</h1>
-            <p class="textblock__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
-                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
-                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
-                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
-                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
-                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
-                aspernatur suscipit dicta tempora alias error, facilis 
-                mollitia reiciendis sit quaerat!</p>
+            <p class="textblock__description">
+                Drag your mouse over the area below to begin painting. You can choose your color above the top left corner of the paint area.
+                Towards the bottom, you can find a slider which will allow you to change the resolution of the painting area. Select "update grid" to 
+                apply your resolution changes. 
+                <br> Have fun! 
+            </p>
 
                 <div class="grid__settings">
                     <div class="grid__settings__colors">
@@ -35,14 +35,13 @@
                 <div class="grid__container">
 
                 </div>
-                <!-- GRID GOES HERE -->
                 <div class="grid__alteration">
-                    <div class="grid__alteration grid__slider">
+                    <div class="grid__slider">
                         <input type="range" min="2" max="100" value="16" step="2" class="slider" id="gridSlider"> 
                         <label id="rangeValue" for="range">16 x 16</label>
                     </div>
                     <div class="grid__button">
-                        <button class="changeGridSize">create grid</button>  
+                        <button class="changeGridSize">update grid</button>  
                     </div> 
                     
                 </div>

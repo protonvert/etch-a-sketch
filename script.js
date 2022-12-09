@@ -1,11 +1,11 @@
 
 let numberOfBlocks = 16;
 
-const gridSlider = document.getElementById('gridSlider');
-const gridSizeInfo = document.getElementById('rangeValue');
+const gridSlider = document.getElementById('gridSlider');                       // input tag grid slider
+const gridSizeInfo = document.getElementById('rangeValue');                     // displayed value for slider
 
-const gridContainer = document.querySelector('.grid__container');
-const gridButton = document.querySelector('.changeGridSize');
+const gridContainer = document.querySelector('.grid__container');               
+const updateGridButton = document.querySelector('.changeGridSize');                   // button to change grid size
 
 const colorButtons = document.querySelectorAll('.grid__settings__color__option');
 
@@ -63,7 +63,7 @@ function generateGrid() {
         });
     }
 
-gridButton.addEventListener('mousedown', generateGrid);
+updateGridButton.addEventListener('mousedown', generateGrid);
 
 }
 
@@ -86,7 +86,6 @@ for (let i = 0; i < colorButtons.length; i++) {
 }
 
 function rainbowColor() {
-    
     return `rgb(${getRandomInt(256)}, ${getRandomInt(256)}, ${getRandomInt(256)})`
 }
 
