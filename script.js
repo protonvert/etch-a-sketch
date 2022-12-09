@@ -20,7 +20,7 @@ const highlight = document.querySelector('.highlight');
 
 gridContainer.style.gridTemplateColumns = 'repeat(2, auto)';
 
-gridSlider.addEventListener('change', updateSliderInformation);
+gridSlider.addEventListener('mousemove', updateSliderInformation);
 
 generateGrid();
 
