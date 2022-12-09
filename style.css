@@ -1,0 +1,63 @@
+.main {
+    max-width: 90ch;
+    margin: auto;
+    text-align: center;
+}
+
+.grid__container {
+    display: grid;
+    margin: auto;
+    width: 700px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.grid__child:hover {
+    background-color: black;
+}
+
+.grid__settings__color__option {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.grid__settings__colors {
+    display: flex;
+    gap: 10px;
+    /* border: 1px solid black; */
+}
+
+.color__option--random {
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(189,230,164,1) 19%, rgba(163,134,222,1) 61%, rgba(252,70,107,1) 100%);
+}
+.color__option--black {
+    background-color: black;
+}
+
+.grid__settings {
+    /* border: 1px solid black; */
+    padding: 10px 10px;
+}
+/* .highlight {
+    background-color: black;
+} */
+.highlight-black {
+    background-color: black;
+}
+.highlight-random {
+    background-color: red;
+}
+
+.grid__child {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.146);
+    /* background-color: aliceblue; */
+}
+
+
+.slidecontainer {
+    justify-content: center;
+    display: flex;
+}

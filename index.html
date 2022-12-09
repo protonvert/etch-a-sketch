@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    
+    <section class="main">
+        <div class="textblock">
+            <h1 class="textblock__header">Etch-A-Sketch</h1>
+            <p class="textblock__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
+                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
+                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
+                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
+                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
+                Sunt sequi in rerum sed id, saepe eum, rem itaque iste 
+                aspernatur suscipit dicta tempora alias error, facilis 
+                mollitia reiciendis sit quaerat!</p>
+
+                <div class="grid__settings">
+                    <div class="grid__settings__colors">
+                        <span>colors: </span>
+                        <div class="grid__settings__color__option color__option--black"></div>
+                        <div class="grid__settings__color__option color__option--random"></div>
+
+                    </div>
+                </div>
+
+                <div class="grid__container">
+
+                </div>
+                <!-- GRID GOES HERE -->
+                <div class="grid__alteration">
+                    <div class="grid__alteration grid__slider">
+                        <input type="range" min="2" max="100" value="16" step="2" class="slider" id="gridSlider"> 
+                        <label id="rangeValue" for="range">16 x 16</label>
+                    </div>
+                    <div class="grid__button">
+                        <button class="changeGridSize">create grid</button>  
+                    </div> 
+                    
+                </div>
+                
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
