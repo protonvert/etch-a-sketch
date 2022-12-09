@@ -21,7 +21,7 @@ h1 {
 
 #gridSlider {
     width: 33%;
-    background: #F5EBE0;
+    background: #202020;
     accent-color: #9cbe7d;
 }
 
@@ -54,7 +54,7 @@ button.changeGridSize {
 
 .main {
     max-width: 50%;
-    margin: 10px auto 0 auto;
+    margin: 10px auto 10px auto;
     text-align: center;
     color: #333533;
     padding: 0 50px;
